@@ -37,6 +37,6 @@ Route::group(['prefix'=>'v1', 'namespace'=>'App\Http\Controllers\Api\V1'], funct
     Route::apiResource('monitor/type', MonitorTypeController::class);
     Route::apiResource('manufacturers', ManufacturerController::class);
     Route::apiResource('location', LocationController::class);
-//    Route::apiResource('users', UserController::class);
+    Route::apiResource('users', UserController::class);
     Route::apiResource('state', StateController::class);
 });
